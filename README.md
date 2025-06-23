@@ -14,7 +14,7 @@ The dataset consists of:
 
 The images of the dataset are planar scanning images with multiple potential intentions. There are 2685 images in the dataset, which are divided into 126 groups of sub data. Each group of images from group 1 to group 113 are images taken for the **same object** at different angles or distances, and each group of images from group 114 to group 126 are images taken for **similar objects** at different angles or distances. Objects to be photographed include books, documents, paper, illustrations, cards, etc.
 
-Each json annotation file contains multiple keywords. Some important keywords are as follows:
+Each json annotation file contains multiple keywords. Some important keywords are listed in the table below.
 
 |   keyword  |                            meaning                           |              note             |
 |:----------:|:------------------------------------------------------------:|:-----------------------------:|
@@ -28,8 +28,8 @@ Each json annotation file contains multiple keywords. Some important keywords ar
 |  position  | coordinates of the four corners of the potential intent area |                               |
 
 <br>
-A sample image and its annotation in the dataset:
-
+An example of an image and its annotations in the dataset is as follows.
+<div style="margin-bottom: 15px;"></div>
 <img src="./example_image.jpg" width = 80%>
 
 ```json
